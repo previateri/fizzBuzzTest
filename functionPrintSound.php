@@ -14,14 +14,10 @@
 			$output = ($output == $i ? $sound : $output . $sound);
 		}
 		endforeach;
-		
 		echo $output . PHP_EOL;
 	}
 }
 
-$arrSound = [ 3 => 'Fizz...', 
-			  5 => 'Buzz...',
-			  7 => 'Zazz!',
-			];
+$arrSound = [ 3 => 'Fizz...', 5 => 'Buzz...', 7 => 'Zazz!', ];
 
 printSound($arrSound, 21);
